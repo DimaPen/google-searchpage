@@ -82,6 +82,13 @@ li {
     cursor: pointer;
 }
 
+#active {
+    font-weight: bold;
+    color: rgba(46, 80, 235, 0.87);
+    padding-bottom: 26px;
+    border-bottom: 3px solid rgba(46, 80, 235, 0.87);
+}
+
 #tools {
     padding: 4px 14px !important;
 }
@@ -91,13 +98,6 @@ li {
     border-radius: 2px;
     background-color: rgb(230, 239, 240);
     box-shadow: 1px 1px 1px rgba(150, 196, 177, 0.7);
-}
-
-#active {
-    font-weight: bold;
-    color: rgba(46, 80, 235, 0.87);
-    padding-bottom: 26px;
-    border-bottom: 3px solid rgba(46, 80, 235, 0.87);
 }
 
 h3 {
@@ -208,10 +208,9 @@ td:hover {
 #next {
     padding-left: 60px;
 }
-
 #foot {
-    width: 1200px;
     display: table-cell;
+    width: 1200px;
     vertical-align: middle;
     border-top: 1px solid rgb(165, 170, 169);
     background-color: rgb(230, 239, 240);
